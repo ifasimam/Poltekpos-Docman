@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!--
+help.html - Online help
+Copyright (C) 2002, 2003, 2004  Stephen Lawrence
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+-->
+
+<html>
+<head>
+  <title>User - Help</title>
+                     
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+            
+  <script type="text/javascript">
+<!--
+window.focus();
+//-->
+  </script>
+</head>
+  <body>
+   
+<h1>OpenDocMan - Guide to use</h1>
+   
+<ul>
+   <li><a href="#Add_File_-_File_Location">Adding a file: File Location</a></li>
+   <li><a href="#Add_File_-_Category">Adding a file: Category</a></li>
+   <!-- Temporary Removed <li><a href="#Add_File_-_Department">Adding a file: Department</a></li> -->
+   <li><a href="#Add_File_-_Authority">Adding a file: Authority</a></li>
+  <li><a href="#Add_File_-_Description">Adding a file: Description</a></li>
+  <li><a href="#Add_File_-_Comment">Adding a file: Comment</a></li>
+  <li><a href="#Add_File_-_Example">Adding a file: Example</a></li>
+ 
+</ul>
+   <a name="Add_File_-_File_Location"></a><br>
+  <b>Add File - File Location</b><br>
+  Pada bagian ini anda dapat melakukan pencarian dokumen yang akan ditambahkan ke dalam repositori 
+  dokumen pada komputer anda dengan menekan tombol <b>"Pilih File..."</b> sehingga akan muncul jendela baru. 
+  Pada jendela baru yang terbuka, pilihlah  sebuah dokumen yang akan anda tambahkan lalu tekan tombol <b>"Open"</b> sehingga akan muncul nama dokumen pada text box yang tersedia di samping tombol <b>"Pilih File..."</b> . 
+  Setelah itu, lanjutkan pengisian form pada baris selanjutnya untuk kelengkapan data yang akan ditambahkan ke dalam repositori dokumen.<br>
+ <br>
+ 
+ <b><a name="Add_File_-_Category"></a>Add File - Category</b><br>
+ Pada bagian ini anda dapat menentukan kategori dari dokumen yang akan ditambahkan ke dalam repositori. 
+ Pastikan kategori yang anda pilih sesuai dengan jenis dokumen yang akan anda tambahkan untuk 
+ memudahkan proses pencarian data nantinya jika dokumen sudah ditambahkan ke dalam repositori.<br>
+ <br>
+  <!-- Temporary Removed
+ <b><br><a name="Add_File_-_Department"></a>Add File - Department</b><br>
+  This box allows you to define, for each department, the corresponding access 
+rights you want users to have. <br>
+ <br> -->
+ <b><a name="Add_File_-_Authority"></a>Add File - Authority</b><br>
+   Pada bagian ini anda dapat menentukan pembatasan hak akses dokumen kepada departemen maupun secara spesifik kepada user. 
+   Pengunggah dokumen dapat menentukan jenis akses yang dapat diberikan meliputi 
+   <a href="#Rights_-_Forbidden">forbidden</a>, 
+   <a href="#Rights_-_View">view</a>, 
+   <a href="#Rights_-_Read">read</a>, 
+   <a href="#Rights_-_Modify">modify</a>, 
+   <a href="#Rights_-_Admin">admin</a>. <br>
+Forbidden : Tidak diperbolehkan mengakses dokumen<br>
+View &nbsp &nbsp &nbsp &nbsp : Diperbolehkan melihat dokumen tetapi tidak dapat mengunduh dokumen<br>
+Modify &nbsp &nbsp &nbsp: Diperbolehkan melihat dokumen dan dapat mengunduh dokumen<br>
+Admin &nbsp &nbsp &nbsp : Diperbolehkan untuk melihat, mengunduh dan mengubah versi dokumen
+<br><br>
+
+<b><a name="Add_File_-_Description"></a>Add File - Description<br>
+</b>   Pada bagian ini anda dapat menambahkan deskripsi dokumen yang akan anda unggah. 
+Deskripsi dokumen akan ditampilkan pada tampilan listing file sehingga deskripsi digunakan sebagai identitas 
+dokumen untuk mempermudah proses pencarian dokumen. 
+Jika dirasa deskripsi dari dokumen yang akan anda unggah cukup banyak maka anda dianjurkan untuk menggunakan kolom pada 
+sisi <a href="#Add_File_-_Comment">Comment</a> dengan ruang yang lebih besar 
+untuk menjelaskan deskripsi dokumen anda.<br>
+<br>
+
+ <b><a name="Add_File_-_Comment"></a>Add File - Comment</b><br>
+   Pada bagian ini anda dapat menambahkan deskripsi dari dokumen dengan ruang yang lebih besar.
+   <br>
+ <br>
+ 
+ <b>
+ <a name="Rights_-_Admin"></a>Rights - </b> <b>Admin</b><br>
+Pada level ini pengguna dapat melakukan keseluruhan administrasi dokumen meliputi unggah, unduh, menghapus dan lain sebagainnya.
+<br>
+ <br>
+ 
+ <b><a name="Rights_-_Modify"></a>Rights - Modify</b><br>
+Pada level ini pengguna dapat melakukan unggah revisi dari dokumen tetapi tidak dapat menghapusnya.<br>
+ <b><br>
+ <a name="Rights_-_Read"></a>Rights - Read</b><br>
+Pada level ini pengguna hanya dapat mengunduh dokumen. <br>
+ <br>
+
+ <b><a name="Rights_-_View"></a>Rights - View</b><br>
+ Pada level ini pengguna hanya dapat melihat list dokumen tanpa melakukan proses unggah, unduh dan lain sebagainnya.<br>
+ <br>
+ 
+ <a name="Rights_-_Forbidden"></a><b>Rights - Forbidden</b><br>
+Pada level ini pengguna tidak diberikan ijin penuh untuk mengakses dokumen.<br>
+ <br>
+ 
+ <b><a name="Add_File_-_Example"></a>Add File - Example</b><br>
+ Mari berasumsi anda akan melakukan pengaturan permission sebagai berikut kepada dokumen yang akan anda unggah:<br>
+ 
+<ul>
+   <li>Hanya anda yang dapat melakukan permission <a href="#Rights_-_Admin">administrasi</a> pada dokumen</li>
+   <li>Hanya departemen anda yang dapat melakukan permission <a href="#Rights_-_Modify">modify</a> pada dokumen</li>
+   <li>Hanya departemen Teknik Informatika yang dapat melakukan permission <a href="#Rights_-_Read">Read</a> pada dokumen</li>
+   <li>Hanya departemen Logistik Bisnis yang dapat melakukan permission <a href="#Rights_-_View">View</a> pada dokumen</li>
+   <li>Selain ketentuan permission di atas, akan masuk ke dalam daftar permission <a href="#Rights_-_Forbidden">Forbidden</a></li>
+ 
+</ul>
+ <b>Setelah anda memahami ketentuan permission di atas, selanjutnya anda dapat melihat contoh proses pengunggahan dokumen 
+ di bawah ini:</b><br>
+ 
+<ol>
+   <li>
+	Langkah pertama, tekan tombol <b>"Add Document"</b> pada menu header. Anda dapat melihat contoh pada gambar<br>
+	<img src="./images/guide/1.jpg" alt="Section One"/>
+ </li><br>
+ 
+   <li>
+	Setelah muncul halaman baru, tekan tombol <b>"Pilih File"</b> untuk membuka jendela baru pada sistem. 
+	Anda dapat melihat contoh pada gambar <br>
+	<img src="./images/guide/2.jpg" alt="Section Two"/>
+	</li><br>
+	
+   <li>
+	Setelah jendela baru muncul, pilih dokumen yang akan diunggah lalu tekan tombol <b>"Open"</b>. 
+	Anda dapat melihat contoh pada gambar <br><br>
+	<img src="./images/guide/3.jpg" alt="Section Three"/>
+	</li><br>
+	
+   <li>
+   Langkah selanjutnya, pilih jenis dokumen yang akan anda tambahkan. Anda dapat melihat contoh pada gambar<br>
+	<img src="./images/guide/4.jpg" alt="Section Four"/>
+	</li><br>
+	
+   <li>
+   Langkah selanjutnya tentukan pengaturan permission dokumen kepada departemen. Anda dapat mengikuti rule pada asumsi yang 
+	sudah ditentukan sebelumnya atau anda dapat menentukan permission sendiri <a href="#Add_File_-_Authority">lihat ketentuan permission</a><br><br>
+   <img src="./images/guide/5.jpg" alt="Section Five"/>
+   </li><br>
+   
+   <li>
+   Langkah selanjutnya tentukan pengaturan permission dokumen kepada user. Anda dapat mengikuti rule pada asumsi yang 
+	sudah ditentukan sebelumnya atau anda dapat menentukan permission sendiri <a href="#Add_File_-_Authority">lihat ketentuan permission</a><br><br>
+	<img src="./images/guide/6.jpg" alt="Section Six"/>
+	</li><br>
+	
+   <li>
+   Langkah selanjutnya, anda dapat menambahkan deskripsi serta komentar sebagai penyerta kelengkapan dokumen. Deskripisi dan komentar
+	dapat meliputi instruksi penggunaan dokumen maupun ringkasan isi dokumen tersebut<br>
+   <img src="./images/guide/7.jpg" alt="Section Seven"/>
+   </li><br>
+   
+   <li>
+   Jika dirasa semua data beserta kelengkapan yang akan diunggah sudah benar, maka anda dapat menekan tombol <b>"Submit"</b> untuk mengakhiri
+	proses pengunggahan dokumen<br>
+	<img src="./images/guide/8.jpg" alt="Section Eight"/>
+	</li><br>
+	
+   <li>
+   Terlihat notifikasi sistem bahwa dokumen sudah diunggah ke dalam repositori <br>
+	<img src="./images/guide/9.jpg" alt="Section Nine"/>
+	</li><br>
+	
+   <li>
+   Proses unggah dokumen selesai sampai disini.
+	</li><br>
+	
+</ol>
+ <b>Catatan:</b> pastikan anda melakukan pengaturan permission yang tepat pada dokumen yang ditambahkan, untuk mencegah pengaksesan<br> dokumen oleh pengguna atau departemen 
+ yang tidak mempunyai kepentingan atas dokumen tersebut.<br>
+ 
+  <br>
+ <br>
+   <p align="right"><b>Prepared by Imam Ibnu Faishal (1143090)</b></p>
+</body>
+</html>
